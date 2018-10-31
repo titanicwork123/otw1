@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-const adminprefix = "O";
-const devs = ['420287914149150731, '420287914149150731'];
-
+const adminprefix = "-";
+const devs = ['420287914149150731', '420287914149150731'];
+ 
 
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
