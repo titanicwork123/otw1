@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
-const adminprefix = "-";
-const devs = ['420287914149150731', '420287914149150731'];
+const adminprefix = "P";
+const devs = ['200453456169926667', '500450331474395156'];
  
 
 client.on('message', message => {
@@ -50,4 +50,4 @@ if (message.content.startsWith(adminprefix + 'st')) {
 
 });
 
-client.login('NTAwNDUwMzMxNDc0Mzk1MTU2.DrPCRg.s6FKrgV-WVM_fU0d_rfsPgtIrtE');
+client.login('MjAwNDUzNDU2MTY5OTI2NjY3.Dr0B7A.q_nyTOrS06BKqI3iMCnEERtAth0');
